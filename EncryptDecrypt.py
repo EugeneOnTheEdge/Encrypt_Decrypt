@@ -8,7 +8,7 @@ def main():
 	elif mode == 'd':
 		end = 'DECRYPTED'
 
-     toProcess = raw_input(('Enter the sentence to be '+end+' > '))
+     	toProcess = raw_input(('Enter the sentence to be '+end+' > '))
 	pwd = getpass.getpass('ENTER PASSWORD *will not be seen as you type* > ')
 
 	processed = ''
