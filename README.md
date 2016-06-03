@@ -1,5 +1,5 @@
 # Encrypt_Decrypt
-Download the software: EncryptDecrypt.exe
+Download the software: EncryptDecrypt.zip
 
 Download the source code: EncryptDecrypt.py
 
