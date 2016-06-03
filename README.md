@@ -1,5 +1,6 @@
 # Encrypt_Decrypt
-Download the file: EncryptDecrypt.py
+Download the software: EncryptDecrypt.exe
+Download the source code: EncryptDecrypt.py
 
 A little software to encrypt / decrypt a string. The program is based on Python.
 Please note that the program is still in beta and there are probably tons of bugs (please let me know them if you find any :) )You can also see how inefficient the code is, but I'm workin' on it!
