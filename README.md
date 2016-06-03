@@ -9,4 +9,4 @@ Also, the program creates a new file called 'logED.dat' the first time you run i
 
 Created with LoL (Lots of Love),
 
-- EugeneOnTheEdge, dev
+EugeneOnTheEdge, dev
