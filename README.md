@@ -3,6 +3,8 @@ Download the software: EncryptDecrypt.zip
 
 Download the source code: EncryptDecrypt.py
 
+//If you own a Python program in your Android device / iDevice, then download the .py file and run it on your phone.
+
 - Unzip the .zip file, put 'em all into the same directory.
 
 - Just run EncryptDecrypt.exe *and be sure to read the Terms and Conditions and agree to it*
