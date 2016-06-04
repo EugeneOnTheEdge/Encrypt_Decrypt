@@ -5,7 +5,7 @@ Download the source code: EncryptDecrypt.py
 
 -Unzip the .zip file, put 'em all into the same directory.
 
--Just run EncryptDecrypt.exe *and be sure to read the Terms and Conditions*
+-Just run EncryptDecrypt.exe *and be sure to read the Terms and Conditions and agree to it*
 
 A little software to encrypt / decrypt a string. The program is based on Python.
 Please note that the program is still in beta and there are probably tons of bugs (please let me know them if you find any :) )You can also see how inefficient the code is, but I'm workin' on it!
