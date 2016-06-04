@@ -7,11 +7,15 @@ def main():
           end = 'ENCRYPTED'
      elif mode == 'd':
           end = 'DECRYPTED'
+     else:
+          print '>>>Did you type in the correct mode????<<<'
+          main()
+          
      toProcess = raw_input(('Enter the sentence to be '+end+' > '))
      pwd = getpass.win_getpass('ENTER PASSWORD *will not be seen as you type* > ')
 
      processed = ''
-     letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ,abcdefghijklmnopqrstuvwxyz. 0123456789!#/=@$%&:+-;*?'
+     letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ,abcdefghijklmnopqrstuvwxyz.\"\\ 0123456789!#/=@$\'%&:+-;*?'
      lenPwd = len(pwd)
 
      for counter in range(len(toProcess)):
@@ -56,7 +60,7 @@ _f = f.readlines()
 
 if _f[0][:1] == '0':
      print '===============/!\ PLEASE READ THIS CAREFULLY /!\================'
-     _a = "Dev: Jehezkiel Eugene (Git: EugeneOnTheEdge)\n\nThis encrypt/decrypter software (hereinafter called as \"software\") is provided \"AS IS\". There may be some bugs and/or defects. By using this program, you take the whatever risks you may have (but not limited to loss of love (break up), divorce, seizure, blindness, loss of hearing, marks dropping in school/college/university/education, loss of job, death (of anyone), assassination, etc.) (\"risks\") created as a result of this software. The software developer (\"developer\") does not hold any responsiblity to your usage of this software. \n\nBy typing 'agree', you abide and agree to the terms and conditions, indemnify your own risks, and hold harmless of the developer > "
+     _a = "Dev: Jehezkiel Eugene (Git: EugeneOnTheEdge)\n\nThis encrypt/decrypter software (hereinafter called as \"software\") is provided \"AS IS\". There may be some bugs and/or defects. By using this program, you take the whatever risks you may have (but not limited to loss of love (break up), divorce, seizure, blindness, loss of hearing, marks dropping in school/college/university/education, loss of job, death (of anyone), assassination, etc.) (\"risks\") created as a result of this software. The software developer (\"developer\") does not hold any responsiblity to your usage of this software. \n\nThis window closes after you type in 'agree', so just relaunch the program again afterwards. \n\nBy typing 'agree', you abide and agree to the terms and conditions, indemnify your own risks, and hold harmless of the developer > "
      agree = raw_input(_a).lower()
      if agree != 'agree':
           os.system('exit')
@@ -65,7 +69,9 @@ if _f[0][:1] == '0':
           f = open('logED.dat','w')
           f.write('1')
           f.close()
-          main()
+          os.system('exit')
 
 if _f[0][:1] == '1':
+     print "=====================ENCRYPT/DECRYPTOR (c) EugeneOnTheEdge====================="
+     print "V1.0beta | Just follow the on-screen instructions.\n"
      main()
